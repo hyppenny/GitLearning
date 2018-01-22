@@ -7,3 +7,8 @@ def find_substring(string, sub):
         :type sub: str
         :rtype: int
         """
+        return string.find(sub)
+
+assert find_substring("hello, trinity", "tri") == 7
+assert find_substring("hello, trinity", "yaping") == -1
+assert find_substring("", "tri") == -1
