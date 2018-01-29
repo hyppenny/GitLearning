@@ -2,11 +2,12 @@
 
 ## Required
 
-* Install Pycharm and Django, set up local development evironment
+* Install Pycharm and Django, set up local development evironment.
 * Write a basic website just like this.
 ![Sample](images/web_design_station.PNG)
 * Send a pull request under the folder of your name.
 * Use raw js, css, no libraries or frameworks are allowed.
+* Ignore unnecessary files.
 
 ## Optional
 
