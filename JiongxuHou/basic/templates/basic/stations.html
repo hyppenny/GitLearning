@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stations</title>
+    <link rel="stylesheet" href={% static 'basic/styles.css' %}>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+    {% for nav in navigations %}
+        <a href=../{{ nav.nav_name }}>{{ nav.nav_name }}<br></a>
+    {% endfor %}
+</div>
+
+<div class="content-head">Stations</div>
+
+
+<div id="map" style="margin-left:15%;margin-top:1vw;width:80vw;height:45vw;"></div>
+
+<script>
+    function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(53.342067, -6.251720), zoom: 16
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN-k2Z0JpTVPPzGkt61YImxgxTf4PUzk0&callback=myMap"></script>
+
+</body>
+</html>

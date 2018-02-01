@@ -1,0 +1,42 @@
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 10%; /* 10% width */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: url("images/trinty-white.png") no-repeat left top;
+    background-color: #111; /* Black*/
+    background-size: 50%;
+    background-position: 50% 3vw;
+    padding-top: 10%;
+}
+
+.sidenav a {
+    padding: 15% 10% 15% 20%;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    /*background-color: white;*/
+}
+
+.content-head {
+    margin-left: 12%;
+    margin-top: 1%;
+    /*background: beige;*/
+    font-size: 1.5vw;
+    color: black;
+}
+
+.content-body {
+    margin-left: 12%;
+    margin-top: 2%;
+    /*background: beige;*/
+    font-size: 1vw;
+    color: black;
+}
