@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseBadRequest
 
 
 def emission(request):
@@ -10,7 +9,7 @@ def monitor(request):
     return render(request, 'core/monitor.html')
 
 
-def station(request):
+def stations(request):
     return render(request, 'core/station.html')
 
 

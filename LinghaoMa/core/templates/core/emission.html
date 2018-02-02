@@ -1,10 +1,31 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Emission</title>
+    <link rel="stylesheet" href={% static 'css/core.css' %}>
+    <script src={% static 'js/loadmap.js' %}></script>
 </head>
 <body>
-
+    <div id="header">
+        <div id="logo">Logo</div>
+    </div>
+    <div id="nav">
+        <div class="nav-item">Stations</div>
+        <div class="nav-item">Emission</div>
+        <div class="nav-item">Monitor</div>
+        <div class="nav-item">About</div>
+    </div>
+    <div id="map-container">
+        <div id="map-title">Stations</div>
+        <div id="map"></div>
+    </div>
+    <div id="footer">
+        <div class="footer-logo">Trinity</div>
+        <div class="footer-logo">Logo</div>
+        <div class="footer-logo">Logo</div>
+    </div>
 </body>
 </html>
